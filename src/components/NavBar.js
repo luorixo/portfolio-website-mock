@@ -21,10 +21,10 @@ export default function NavBar() {
                         About Me
                     </NavLink>
                 </nav>
-                <div>
-                    <SocialIcon />
-                    <SocialIcon />
-                    <SocialIcon />
+                <div className="inline-flex py-3 px-3 my-6">
+                    <SocialIcon url="https://www.linkedin.com/in/eugene-j-chua" className="mr-4" target="_blank" fgColor="#fff" style={{ height:35, width: 35}} />
+                    <SocialIcon url="https://github.com/luorixo" className="mr-4" target="_blank" fgColor="#fff" style={{ height:35, width: 35}} />
+                    <SocialIcon url="mailto:luorixo@gmail.com" className="mr-4" target="_blank" fgColor="#fff" style={{ height:35, width: 35}} />
                 </div>
             </div>
         </header>
