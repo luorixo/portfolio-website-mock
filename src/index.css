@@ -4,9 +4,11 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap'); /* Amatic SC from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Smythe&display=swap'); /* Smythe from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap'); /* Source sans pro from google fonts */
 
 .cursive {
-  font-family: "Amatic SC", cursive;
+  font-family: 'Smythe', cursive;
   font-weight: 700;
 }
 
@@ -17,5 +19,5 @@
 }
 
 .home-name {
-  font-size: 150px;
+  font-size: 300px;
 }
