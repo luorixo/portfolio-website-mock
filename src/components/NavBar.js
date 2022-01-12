@@ -8,18 +8,18 @@ export default function NavBar() {
         <header className="relative">
             <div className="container mx-auto flex justify-between">
                 <nav className="inline-flex">
-                    <NavLink to="/" exact activeClassName="text-white" className="inline-flex items-center py-6 px-3 mr-5 text-white text-4xl font-bold cursive tracking-widest">
-                        Eugene C
+                    <NavLink to="/" exact activeClassName="text-white" className="inline-flex items-center mr-10 text-white text-4xl font-bold cursive tracking-widest">
+                        EUGENE.C
                     </NavLink>
-                    <NavLink to="/post" activeClassName="text-white bg-red-700" className="inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-orange-400"> 
-                        Blog
+                    <NavLink to="/post" activeClassName="bg-red-700" className="inline-flex items-center px-8 text-white hover:text-orange-300"> 
+                        BLOG
                     </NavLink>
                    
                 </nav>
-                <div className="inline-flex py-3 px-3 my-6">
-                    <SocialIcon url="https://www.linkedin.com/in/eugene-j-chua" className="mr-4" target="_blank" bgColor="#fff" style={{ height:40, width: 40}} />
-                    <SocialIcon url="https://github.com/luorixo" className="mr-4" target="_blank" bgColor="#fff" style={{ height:40, width: 40}} />
-                    <SocialIcon url="mailto:luorixo@gmail.com" className="" target="_blank" bgColor="#fff" style={{ height:40, width: 40}} />
+                <div className="inline-flex py-8 px-3 my-6">
+                    <SocialIcon url="https://www.linkedin.com/in/eugene-j-chua" label="linkedin link" className="mr-9" target="_blank" bgColor="#fff" style={{ height:55, width: 55}} />
+                    <SocialIcon url="https://github.com/luorixo" label="github link" className="mr-9" target="_blank" bgColor="#fff" style={{ height:55, width: 55}} />
+                    <SocialIcon url="mailto:luorixo@gmail.com" label="mail link" target="_blank" bgColor="#fff" style={{ height:55, width: 55}} />
                 </div>
             </div>
         </header>

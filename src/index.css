@@ -20,8 +20,33 @@
 
 .home-name {
   font-family: 'Amatic SC', cursive;
-  font-size: 310px;
-  letter-spacing: 8rem;
+  font-size: 200px;
+  letter-spacing: 2rem
+}
+
+.home-name::after {
+  content: "";
   margin-right:-8rem;
 }
 
+/* from https://www.shapedivider.app/ to draw SVG curves */
+.custom-shape-divider-bottom-1641975661 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1641975661 svg {
+  position: relative;
+  display: block;
+  width: calc(204% + 1.3px);
+  height: 82px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1641975661 .shape-fill {
+  fill: #151515;
+}
