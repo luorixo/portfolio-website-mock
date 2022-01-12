@@ -19,5 +19,9 @@
 }
 
 .home-name {
-  font-size: 300px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 310px;
+  letter-spacing: 8rem;
+  margin-right:-8rem;
 }
+
