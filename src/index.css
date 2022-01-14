@@ -7,6 +7,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Smythe&display=swap'); /* Smythe from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap'); /* Source sans pro from google fonts */
 
+* {
+  margin: 0;
+}
+
 .cursive {
   font-family: 'Smythe', cursive;
   font-weight: 700;
@@ -31,6 +35,10 @@
 
 .blued {
   background-color: #1A2A54;
+}
+
+.orange {
+  color: #FF986C;
 }
 
 /* from https://www.shapedivider.app/ to draw SVG curves */

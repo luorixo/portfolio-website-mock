@@ -7,11 +7,12 @@ export default function Home() {
             <hero className="min-w-full min-h-screen bg-gradient-to-bl from-orange-600 to-blue-700 block">
                 <NavBar/> 
 
-                <div className="flex">
-                    <section>
-                        <h1>Hi there.</h1>
+                <div className="container mx-auto flex justify-between">
+                    <section className="inline-flex whitespace-nowrap py-2 my-6 bg-red-100">
+                        <h1 className="">Hi there.</h1>
+                        <h3>I’m Eugene, a software engineering student at The University of Auckland.</h3>
                     </section>
-                    <section>
+                    <section className="inline-flex">
 
                     </section>
                 </div>
