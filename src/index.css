@@ -58,3 +58,11 @@
 .custom-shape-divider-bottom-1642025412 .shape-fill {
   fill: #1A2A54;
 }
+
+.intro-left {
+  flex: 1;
+}
+
+.intro-right {
+  flex: 1;
+}

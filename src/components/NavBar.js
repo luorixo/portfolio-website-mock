@@ -17,9 +17,9 @@ export default function NavBar() {
                    
                 </nav>
                 <div className="inline-flex py-8 my-6">
-                    <SocialIcon url="https://www.linkedin.com/in/eugene-j-chua" label="linkedin link" className="mr-9 hover:text-black" target="_blank" bgColor="#fff" style={{ height:55, width: 55}} />
-                    <SocialIcon url="https://github.com/luorixo" label="github link" className="mr-9" target="_blank" bgColor="#fff" style={{ height:55, width: 55}} />
-                    <SocialIcon url="mailto:luorixo@gmail.com" label="mail link" target="_blank" bgColor="#fff" style={{ height:55, width: 55}} />
+                    <SocialIcon url="https://www.linkedin.com/in/eugene-j-chua" label="linkedin link" className="mr-9 hover:text-black" target="_blank" bgColor="#fff" style={{ height:50, width: 50}} />
+                    <SocialIcon url="https://github.com/luorixo" label="github link" className="mr-9" target="_blank" bgColor="#fff" style={{ height:50, width: 50}} />
+                    <SocialIcon url="mailto:luorixo@gmail.com" label="mail link" target="_blank" bgColor="#fff" style={{ height:50, width: 50}} />
                 </div>
             </div>
         </header>

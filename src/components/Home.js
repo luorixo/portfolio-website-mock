@@ -1,26 +1,31 @@
 import React from "react";
+import "../index.css"
 import NavBar from "./NavBar";
 
 export default function Home() {
     return (
+        
+        <div classname="flex">
+            <div className="inline-flex flex-1 intro-left">left</div>
+            <div className="inline-flex flex-1 intro-right">right</div>
+        </div>
+
+
+
+        /*
         <main>
             <hero className="min-w-full min-h-screen bg-gradient-to-bl from-orange-600 to-blue-700 block">
                 <NavBar/> 
 
                 <div className="container mx-auto flex justify-between">
-                    <section className="inline-flex whitespace-nowrap py-2 my-6 bg-red-100">
-                        <h1 className="">Hi there.</h1>
-                        <h3>I’m Eugene, a software engineering student at The University of Auckland.</h3>
-                    </section>
+                    <section className="inline-flex py-2 my-6 bg-red-100">
+                        <h1 className=" bg-green-100">Hi there.</h1>
+                        <p>I’m Eugene, a software engineering student at The University of Auckland.</p>
+                    </section> 
                     <section className="inline-flex">
 
                     </section>
                 </div>
-
-
-                {/*<section className="relative flex justify-center pt-0 lg:pt-32 md:pt-2 px-8">
-                    <h1 className="text-6xl text-orange-300 font-bold cursive leading-none lg:leading-snug home-name">Hi there.</h1>
-                </section>*/}
             </hero>
 
             <div class="custom-shape-divider-bottom-1642025412">
@@ -29,9 +34,8 @@ export default function Home() {
                 </svg>
             </div>
 
-            <section className="w-full h-screen blued">
-                <h1 className="relative">About Me</h1>
-            </section>
+
         </main>
+        */
     );
 }
