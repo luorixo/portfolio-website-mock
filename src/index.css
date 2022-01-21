@@ -12,29 +12,31 @@
   font-weight: 700;
 }
 
+.source {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 .prose img {
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
 }
 
-.home-name {
+.welcome {
   font-family: 'Amatic SC', cursive;
   font-size: 200px;
-  letter-spacing: 2rem
+  font-weight: 800;
+  color: #FF986C;
+  letter-spacing: 0.5rem
 }
 
-.home-name::after {
+.welcome::after {
   content: "";
-  margin-right:-8rem;
+  margin-right:-0.5rem;
 }
 
 .blued {
   background-color: #1A2A54;
-}
-
-.orange {
-  color: #FF986C;
 }
 
 /* from https://www.shapedivider.app/ to draw SVG curves */
@@ -57,12 +59,4 @@
 
 .custom-shape-divider-bottom-1642025412 .shape-fill {
   fill: #1A2A54;
-}
-
-.intro-left {
-  flex: 1;
-}
-
-.intro-right {
-  flex: 1;
 }
