@@ -35,6 +35,11 @@
   margin-right:-0.5rem;
 }
 
+.profile {
+  height:100px;
+  width:100px;
+}
+
 .blued {
   background-color: #1A2A54;
 }

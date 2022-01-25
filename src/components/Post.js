@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import SanityClient from "../client.js";
 import { Link } from "react-router-dom";
+import NavBar from "./NavBar";
 
 export default function Post() {
     const [postData, setPost] = useState(null);
@@ -23,10 +24,11 @@ export default function Post() {
 
 
     return (
-        <main className="bg-green-100 min-h-screen p-12">
+        <main className="bg-gradient-to-bl from-orange-600 to-blue-700 min-h-screen">
+            <NavBar/>
             <section className="container mx-auto">
-                <h1 className="text-5xl flex justify-center cursive">Blog Posts Page</h1>
-                <h2 className="text-lg text-gray-600 flex justify-center mb-12">Welcome to my page of posts!</h2>
+                <h1 className="text-8xl text-white flex justify-center cursive">Blog Posts Page</h1>
+                <h2 className="text-lg text-white flex justify-center mb-12 mt-4">Welcome to my page of posts!</h2>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {postData && postData.map((post, index) => (
                     <article>

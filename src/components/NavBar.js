@@ -11,7 +11,7 @@ export default function NavBar() {
                     <NavLink to="/" exact activeClassName="text-white" className="inline-flex items-center mr-10 text-white text-4xl font-bold cursive tracking-widest">
                         EUGENE.C
                     </NavLink>
-                    <NavLink to="/post" activeClassName="bg-red-700" className="inline-flex items-center px-8 text-white hover:text-orange-300"> 
+                    <NavLink to="/post" activeClassName="bg-black bg-opacity-10 text-orange-300" className="inline-flex items-center px-8 text-white hover:text-orange-300"> 
                         BLOG
                     </NavLink>  
                    
