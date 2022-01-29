@@ -13,11 +13,11 @@ export default function Home() {
                 <NavBar/> 
 
                 <div className="container mx-auto flex xl:flex-row xl:mt-12 flex-col ">
-                    <section className=" flex-1">
-                        <h1 className="welcome px-0 m-0">Hi there.</h1>
-                        <p className="source text-white text-3xl">I’m <strong>Eugene</strong>, a <strong>software engineering</strong> student at The University of Auckland.</p>
+                    <section className="msg">
+                        <h1 className="welcome">Hi there.</h1>
+                        <p className="source text-white small">I’m <strong>Eugene</strong>, a <strong>software engineering</strong> student at The University of Auckland.</p>
                     </section> 
-                    <section className="bg-red-100 flex-1">
+                    <section className="bg-red-100 pic">
                         <img className="rounded-full profile" src={Image} alt="Eugene Chua"/>    
                     </section>
                 </div>

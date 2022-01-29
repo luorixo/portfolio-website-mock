@@ -7,6 +7,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Smythe&display=swap'); /* Smythe from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap'); /* Source sans pro from google fonts */
 
+strong {
+  font-weight: 900;
+}
+
+.small {
+ font-size: 2.2em;
+}
+
 .cursive {
   font-family: 'Smythe', cursive;
   font-weight: 700;
@@ -24,10 +32,13 @@
 
 .welcome {
   font-family: 'Amatic SC', cursive;
-  font-size: 200px;
-  font-weight: 800;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12em;
+  font-weight: 500;
   color: #FF986C;
-  letter-spacing: 0.5rem
+  letter-spacing: 0.3rem;
+  line-height: normal;
+  margin: 0 0 -0.6rem -0.8rem;
 }
 
 .welcome::after {
@@ -38,6 +49,14 @@
 .profile {
   height:100px;
   width:100px;
+}
+
+.msg {
+  flex: 2;
+}
+
+.pic {
+  flex: 1;
 }
 
 .blued {
