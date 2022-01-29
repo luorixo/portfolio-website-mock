@@ -47,8 +47,9 @@ strong {
 }
 
 .profile {
-  height:100px;
-  width:100px;
+  height:340px;
+  width:340px;
+  margin-top: 16px;
 }
 
 .msg {
