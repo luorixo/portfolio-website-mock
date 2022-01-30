@@ -17,7 +17,7 @@ export default function Home() {
                         <h1 className="welcome">Hi there.</h1>
                         <p className="source text-white small">I’m <strong>Eugene</strong>, a <strong>software engineering</strong> student at The University of Auckland.</p>
                     </section> 
-                    <section className=" pic xl:block hidden">
+                    <section className="pic xl:block hidden">
                         <img className="rounded-full profile" src={Image} alt="Eugene Chua"/>    
                     </section>
                 </div>

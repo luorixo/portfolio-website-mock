@@ -37,12 +37,12 @@ export default function SinglePost() {
     return (
         <main className="bg-gradient-to-bl from-orange-600 to-blue-700 block min-h-screen">
             <NavBar/>
-            <article className="container mx-auto bg-white">
+            <article className="container mx-auto bg-white source">
                 <header className="relative">
-                    <div className="absolute h-full w-full flex items-center justify-center ">
+                    <div className="absolute h-full w-full flex items-center justify-center">
                         <div className="bg-white bg-opacity-75 p-12">
-                            <h1 className="cursive text-3xl lg:text-6xl mb-4">{singlePost.title}</h1>
-                            <div className="flex justify-center text-gray-800">
+                            <h1 className="source font-extrabold text-3xl lg:text-6xl mb-4">{singlePost.title}</h1>
+                            <div className="flex justify-center text-black source">
                                 <img src={urlFor(singlePost.authorImage).url()} alt={singlePost.name} className="w-10 h-10 rounded-full"/>
                                 <p className="cursive flex items-center pl-2 text-2xl">{singlePost.name}</p>
                             </div>                            
