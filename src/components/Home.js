@@ -14,7 +14,7 @@ export default function Home() {
 
                 <div className="container mx-auto flex xl:flex-row xl:mt-12 flex-col ">
                     <section className="msg">
-                        <h1 className="welcome">Hi there.</h1>
+                        <h1 className="welcome xl:inline lg:inline md:inline hidden">Hi there.</h1>
                         <p className="source text-white small">I’m <strong>Eugene</strong>, a <strong>software engineering</strong> student at The University of Auckland.</p>
                     </section> 
                     <section className="pic xl:block hidden">
